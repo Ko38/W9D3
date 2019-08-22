@@ -1,0 +1,43 @@
+.hanoi {
+  margin: 30px auto;
+  width: 600px;
+}
+
+ul {
+  margin-left: 10px;
+  list-style: none; 
+  float: left; 
+  width: 180px; 
+  padding: 0 0 10px 0; 
+  border-bottom: 10px solid black; 
+  cursor: pointer; 
+
+}
+
+
+li {
+    width: 0px;
+    margin: 10px auto;
+    height: 50px;
+    background: gray;
+    border-radius: 25px;
+}
+
+li.disk1 {
+  width: 60px;
+}
+
+li.disk2 {
+  width: 120px;
+}
+
+li.disk3 {
+  width: 180px;
+}
+
+
+h1 {
+  font-size: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}

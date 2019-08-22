@@ -1,0 +1,29 @@
+
+.ttt ul{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.ttt li {
+
+background: gray;
+  height: 200px;
+  flex: 1000 1 30%;
+  display: flex;
+  border: solid;
+  align-items: center;
+  justify-content: center;
+  font-size: 150px;
+  
+  /* padding: 20px; */
+
+  /* display: flex;
+  flex-wrap: wrap;
+   flex: 1 1 160px; */
+}
+
+.ttt li:hover {
+  background: yellow;
+  
+}

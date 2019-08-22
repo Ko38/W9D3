@@ -1,0 +1,12 @@
+/* PHASE 9: Forms */
+.input {
+  float: left;
+  width: calc(100% - 100px);
+}
+.button {
+  background-color: aqua;
+  border-radius: 20%;
+
+}
+.button:focus { color: red; }
+.button:active { font-weight: bold; }
